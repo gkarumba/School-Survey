@@ -57,7 +57,7 @@ class UserProfile(models.Model):
     girls_pop = models.CharField(max_length=50, blank=True)
     total_pop = models.CharField(max_length=50, blank=True)
     teachers_pop = models.CharField(max_length=50, blank=True)
-    description = models.CharField(max_length=255, blank=True)
+    description = models.CharField(max_length=2550, blank=True)
     fb = models.CharField(max_length=50, blank=True)
     twitter = models.CharField(max_length=50, blank=True)
     website = models.CharField(max_length=50, blank=True)
